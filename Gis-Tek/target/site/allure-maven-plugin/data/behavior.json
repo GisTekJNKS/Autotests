@@ -1,0 +1,312 @@
+{
+  "features" : [ {
+    "title" : "Without feature",
+    "statistic" : {
+      "total" : 26,
+      "passed" : 17,
+      "pending" : 0,
+      "canceled" : 6,
+      "failed" : 3,
+      "broken" : 0
+    },
+    "stories" : [ {
+      "uid" : "aa30ed2f630dc59f",
+      "title" : "Without story",
+      "statistic" : {
+        "total" : 26,
+        "passed" : 17,
+        "pending" : 0,
+        "canceled" : 6,
+        "failed" : 3,
+        "broken" : 0
+      },
+      "testCases" : [ {
+        "uid" : "90213a884f619b3b",
+        "name" : "start",
+        "title" : "Start",
+        "time" : {
+          "start" : 1440144605228,
+          "stop" : 1440144605237,
+          "duration" : 9
+        },
+        "severity" : "NORMAL",
+        "status" : "CANCELED"
+      }, {
+        "uid" : "6b082094f8d2a248",
+        "name" : "createGroup",
+        "title" : "Create group",
+        "time" : {
+          "start" : 1440144605238,
+          "stop" : 1440144605245,
+          "duration" : 7
+        },
+        "severity" : "NORMAL",
+        "status" : "CANCELED"
+      }, {
+        "uid" : "54553eca4632af3",
+        "name" : "createGroup",
+        "title" : "Create group",
+        "time" : {
+          "start" : 1440145216862,
+          "stop" : 1440145221664,
+          "duration" : 4802
+        },
+        "severity" : "NORMAL",
+        "status" : "FAILED"
+      }, {
+        "uid" : "9514c461c46cf202",
+        "name" : "start",
+        "title" : "Start",
+        "time" : {
+          "start" : 1440144502247,
+          "stop" : 1440144502257,
+          "duration" : 10
+        },
+        "severity" : "NORMAL",
+        "status" : "CANCELED"
+      }, {
+        "uid" : "e1d087de2823c15",
+        "name" : "createGroup",
+        "title" : "Create group",
+        "time" : {
+          "start" : 1440144502270,
+          "stop" : 1440144502272,
+          "duration" : 2
+        },
+        "severity" : "NORMAL",
+        "status" : "CANCELED"
+      }, {
+        "uid" : "40078d1909e6ca9a",
+        "name" : "createGroup",
+        "title" : "Create group",
+        "time" : {
+          "start" : 1440145072132,
+          "stop" : 1440145077427,
+          "duration" : 5295
+        },
+        "severity" : "NORMAL",
+        "status" : "FAILED"
+      }, {
+        "uid" : "52f5b3147ed63d4b",
+        "name" : "changeVersion",
+        "title" : "Change version",
+        "time" : {
+          "start" : 1440136228393,
+          "stop" : 1440136469709,
+          "duration" : 241316
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "b7344ec605e670d7",
+        "name" : "deleteItemInDirectory",
+        "title" : "Delete item in directory",
+        "time" : {
+          "start" : 1440136476794,
+          "stop" : 1440136667122,
+          "duration" : 190328
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "a72a0f92085eaf3d",
+        "name" : "search",
+        "title" : "Search",
+        "time" : {
+          "start" : 1440136672170,
+          "stop" : 1440136682211,
+          "duration" : 10041
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "c9f4359b3b2e587b",
+        "name" : "createComplexDirectory",
+        "title" : "Create complex directory",
+        "time" : {
+          "start" : 1440136687781,
+          "stop" : 1440136818124,
+          "duration" : 130343
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "554c3719423ebd90",
+        "name" : "editComplexDirectory",
+        "title" : "Edit complex directory",
+        "time" : {
+          "start" : 1440136823770,
+          "stop" : 1440137126319,
+          "duration" : 302549
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "fe6c512f79802482",
+        "name" : "importDirectory",
+        "title" : "Import directory",
+        "time" : {
+          "start" : 1440137131863,
+          "stop" : 1440137295462,
+          "duration" : 163599
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "f8b514d6202aa0a0",
+        "name" : "createDirectory",
+        "title" : "Create directory",
+        "time" : {
+          "start" : 1440137300644,
+          "stop" : 1440137434359,
+          "duration" : 133715
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "7d9b0f52db0db957",
+        "name" : "createGroup",
+        "title" : "Create group",
+        "time" : {
+          "start" : 1440137439530,
+          "stop" : 1440137509620,
+          "duration" : 70090
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "fa0d9b0433d8f511",
+        "name" : "editGroup",
+        "title" : "Edit group",
+        "time" : {
+          "start" : 1440137514772,
+          "stop" : 1440137644473,
+          "duration" : 129701
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "f3c3574d2b09c714",
+        "name" : "deleteGroup",
+        "title" : "Delete group",
+        "time" : {
+          "start" : 1440137649719,
+          "stop" : 1440137722615,
+          "duration" : 72896
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "abf31e3539ff9c33",
+        "name" : "createDirectory",
+        "title" : "Create directory",
+        "time" : {
+          "start" : 1440137730242,
+          "stop" : 1440137855635,
+          "duration" : 125393
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "bba50c2f776b3d6f",
+        "name" : "editDirectory",
+        "title" : "Edit directory",
+        "time" : {
+          "start" : 1440137861220,
+          "stop" : 1440138042247,
+          "duration" : 181027
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "9e01543332c72431",
+        "name" : "deleteDirectory",
+        "title" : "Delete directory",
+        "time" : {
+          "start" : 1440138047402,
+          "stop" : 1440138225034,
+          "duration" : 177632
+        },
+        "severity" : "NORMAL",
+        "status" : "FAILED"
+      }, {
+        "uid" : "c9a059966b90face",
+        "name" : "addNewItemInDirectory",
+        "title" : "Add new item in directory",
+        "time" : {
+          "start" : 1440138230366,
+          "stop" : 1440138411859,
+          "duration" : 181493
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "785addb20bafa9e9",
+        "name" : "countOfDisplayedItems",
+        "title" : "Count of displayed items",
+        "time" : {
+          "start" : 1440138416884,
+          "stop" : 1440138656799,
+          "duration" : 239915
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "17b19d564a2d9df3",
+        "name" : "addVersionOfItem",
+        "title" : "Add version of item",
+        "time" : {
+          "start" : 1440138662567,
+          "stop" : 1440138902389,
+          "duration" : 239822
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "7852188178a28138",
+        "name" : "createGroup",
+        "title" : "Create group",
+        "time" : {
+          "start" : 1440156692491,
+          "stop" : 1440156779066,
+          "duration" : 86575
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "f70055de3304be57",
+        "name" : "start",
+        "title" : "Start",
+        "time" : {
+          "start" : 1440144793327,
+          "stop" : 1440144793342,
+          "duration" : 15
+        },
+        "severity" : "NORMAL",
+        "status" : "CANCELED"
+      }, {
+        "uid" : "98f81fc25becf13",
+        "name" : "createGroup",
+        "title" : "Create group",
+        "time" : {
+          "start" : 1440144793378,
+          "stop" : 1440144793387,
+          "duration" : 9
+        },
+        "severity" : "NORMAL",
+        "status" : "CANCELED"
+      }, {
+        "uid" : "449b9bbef6fb1539",
+        "name" : "createGroup",
+        "title" : "Create group",
+        "time" : {
+          "start" : 1440159098368,
+          "stop" : 1440159178296,
+          "duration" : 79928
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      } ]
+    } ]
+  } ]
+}

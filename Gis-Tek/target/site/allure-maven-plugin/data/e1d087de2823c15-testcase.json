@@ -1,0 +1,50 @@
+{
+  "uid" : "e1d087de2823c15",
+  "name" : "createGroup",
+  "title" : "Create group",
+  "time" : {
+    "start" : 1440144502270,
+    "stop" : 1440144502272,
+    "duration" : 2
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 0
+  },
+  "failure" : {
+    "message" : "SkipException: The test was skipped for some reason",
+    "stackTrace" : "org.testng.SkipException: The test was skipped for some reason\n\tat ru.yandex.qatools.allure.testng.AllureTestListener.onTestSkipped(AllureTestListener.java:148)\n\tat org.testng.internal.Invoker.runTestListeners(Invoker.java:1691)\n\tat org.testng.internal.Invoker.runTestListeners(Invoker.java:1683)\n\tat org.testng.internal.Invoker.invokeMethod(Invoker.java:697)\n\tat org.testng.internal.Invoker.invokeTestMethod(Invoker.java:821)\n\tat org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1131)\n\tat org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:124)\n\tat org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)\n\tat org.testng.TestRunner.privateRun(TestRunner.java:773)\n\tat org.testng.TestRunner.run(TestRunner.java:623)\n\tat org.testng.SuiteRunner.runTest(SuiteRunner.java:357)\n\tat org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)\n\tat org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)\n\tat org.testng.SuiteRunner.run(SuiteRunner.java:259)\n\tat org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)\n\tat org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)\n\tat org.testng.TestNG.runSuitesSequentially(TestNG.java:1185)\n\tat org.testng.TestNG.runSuitesLocally(TestNG.java:1110)\n\tat org.testng.TestNG.run(TestNG.java:1018)\n\tat org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)\n\tat org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)\n\tat org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)\n\tat org.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:125)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.lang.reflect.Method.invoke(Method.java:497)\n\tat com.intellij.rt.execution.application.AppMain.main(AppMain.java:140)\n"
+  },
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "CANCELED",
+  "testId" : null,
+  "suite" : {
+    "uid" : "82781587406b9207",
+    "name" : "Custom suite : Gis-Tek",
+    "title" : "Custom suite : Gis-Tek"
+  },
+  "steps" : [ ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "Anders"
+  }, {
+    "name" : "thread",
+    "value" : "5148@Anders.main(1)"
+  }, {
+    "name" : "suite-name",
+    "value" : "Custom suite : Gis-Tek"
+  }, {
+    "name" : "suite-title",
+    "value" : "Custom suite : Gis-Tek"
+  }, {
+    "name" : "framework",
+    "value" : "TestNG"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  } ],
+  "parameters" : [ ]
+}

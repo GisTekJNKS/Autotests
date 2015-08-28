@@ -1,0 +1,56 @@
+{
+  "uid" : "a3acfa0b61d383f2",
+  "name" : "createGroup",
+  "title" : "Create group",
+  "time" : {
+    "start" : 1440145072132,
+    "stop" : 1440145077427,
+    "duration" : 5295
+  },
+  "summary" : {
+    "attachments" : 1,
+    "steps" : 0
+  },
+  "failure" : {
+    "message" : "ElementNotFound: Element not found {By.id: username}\nExpected: visible",
+    "stackTrace" : "Element not found {By.id: username}\nExpected: visible\nScreenshot: file:/C:/Users/John/IdeaProjects/Gis-Tek/build/reports/tests/1440145076383.0.png\nTimeout: 3 s.\nCaused by: NoSuchElementException: Unable to find element with id == username\n\tat com.codeborne.selenide.impl.AbstractSelenideElement.createElementNotFoundError(AbstractSelenideElement.java:662)\n\tat com.codeborne.selenide.impl.WaitingSelenideElement.createElementNotFoundError(WaitingSelenideElement.java:74)\n\tat com.codeborne.selenide.impl.AbstractSelenideElement.checkCondition(AbstractSelenideElement.java:505)\n\tat com.codeborne.selenide.impl.AbstractSelenideElement.findAndAssertElementIsVisible(AbstractSelenideElement.java:389)\n\tat com.codeborne.selenide.impl.AbstractSelenideElement.setValue(AbstractSelenideElement.java:421)\n\tat com.codeborne.selenide.impl.AbstractSelenideElement.dispatchSelenideMethod(AbstractSelenideElement.java:126)\n\tat com.codeborne.selenide.impl.AbstractSelenideElement.dispatchAndRetry(AbstractSelenideElement.java:92)\n\tat com.codeborne.selenide.impl.AbstractSelenideElement.invoke(AbstractSelenideElement.java:67)\n\tat com.codeborne.selenide.impl.WaitingSelenideElement.invoke(WaitingSelenideElement.java:18)\n\tat com.sun.proxy.$Proxy6.setValue(Unknown Source)\n\tat Pages.LoginPage.inputLogin(LoginPage.java:20)\n\tat Pages.LoginPage.authorize(LoginPage.java:33)\n\tat Test1CreatingGroup.createGroup(Test1CreatingGroup.java:38)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.lang.reflect.Method.invoke(Method.java:497)\n\tat org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)\n\tat org.testng.internal.Invoker.invokeMethod(Invoker.java:639)\n\tat org.testng.internal.Invoker.invokeTestMethod(Invoker.java:821)\n\tat org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1131)\n\tat org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:124)\n\tat org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)\n\tat org.testng.TestRunner.privateRun(TestRunner.java:773)\n\tat org.testng.TestRunner.run(TestRunner.java:623)\n\tat org.testng.SuiteRunner.runTest(SuiteRunner.java:357)\n\tat org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)\n\tat org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)\n\tat org.testng.SuiteRunner.run(SuiteRunner.java:259)\n\tat org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)\n\tat org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)\n\tat org.testng.TestNG.runSuitesSequentially(TestNG.java:1185)\n\tat org.testng.TestNG.runSuitesLocally(TestNG.java:1110)\n\tat org.testng.TestNG.run(TestNG.java:1018)\n\tat org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)\n\tat org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)\n\tat org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)\n\tat org.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:125)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.lang.reflect.Method.invoke(Method.java:497)\n\tat com.intellij.rt.execution.application.AppMain.main(AppMain.java:140)\nCaused by: org.openqa.selenium.NoSuchElementException: Unable to find element with id == username (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 273 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '2.47.0', revision: '0e4837e94b1fad0db93e88cd972ed3e235a22892', time: '2015-07-29 15:58:41'\nSystem info: host: 'Anders', ip: '192.168.0.141', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_51'\nDriver info: org.openqa.selenium.ie.InternetExplorerDriver\nCapabilities [{browserAttachTimeout=0, enablePersistentHover=true, ie.forceCreateProcessApi=false, pageLoadStrategy=normal, ie.usePerProcessProxy=false, ignoreZoomSetting=false, handlesAlerts=true, version=11, platform=WINDOWS, nativeEvents=true, ie.ensureCleanSession=false, elementScrollBehavior=0, ie.browserCommandLineSwitches=, requireWindowFocus=false, browserName=internet explorer, initialBrowserUrl=http://localhost:11416/, takesScreenshot=true, javascriptEnabled=true, ignoreProtectedModeSettings=false, enableElementCacheCleanup=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=dismiss}]\nSession ID: 90234f3a-d76e-4bb6-a3c6-30f5910a5da6\n*** Element info: {Using=id, value=username}\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:422)\n\tat org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)\n\tat org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:595)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:348)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:389)\n\tat org.openqa.selenium.By$ById.findElement(By.java:215)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:340)\n\tat com.codeborne.selenide.impl.WebElementSelector.findElement(WebElementSelector.java:28)\n\tat com.codeborne.selenide.impl.WaitingSelenideElement.getActualDelegate(WaitingSelenideElement.java:55)\n\tat com.codeborne.selenide.impl.AbstractSelenideElement.checkCondition(AbstractSelenideElement.java:487)\n\t... 40 more\n"
+  },
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "FAILED",
+  "testId" : null,
+  "suite" : {
+    "uid" : "c04e6c801dc8deee",
+    "name" : "Custom suite : Gis-Tek",
+    "title" : "Custom suite : Gis-Tek"
+  },
+  "steps" : [ ],
+  "attachments" : [ {
+    "title" : "failureScreenShot",
+    "source" : "6226efb4-7a9a-444d-b853-997b97645d39-attachment.png",
+    "type" : "image/png",
+    "size" : 216,
+    "uid" : "60f8969807944d5f"
+  } ],
+  "issues" : [ ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "Anders"
+  }, {
+    "name" : "thread",
+    "value" : "2412@Anders.main(1)"
+  }, {
+    "name" : "suite-name",
+    "value" : "Custom suite : Gis-Tek"
+  }, {
+    "name" : "suite-title",
+    "value" : "Custom suite : Gis-Tek"
+  }, {
+    "name" : "framework",
+    "value" : "TestNG"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  } ],
+  "parameters" : [ ]
+}
